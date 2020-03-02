@@ -42,5 +42,5 @@ time_to_wait = 3600 # 3600 seconds in an hour
 
 while True:
     send_pnr_status_mail(email, password, pnr)
-    time.sleep(one_hour)
+    time.sleep(time_to_wait)
 
